@@ -96,6 +96,6 @@ func main() {
 	api.Get("/print", retrieveDataHandler)
 	api.Post("/store", storeDataHandler)
 
-	log.Fatal(app.Listen(":5050"))
+	log.Fatal(app.Listen(":5060"))
 
 }
