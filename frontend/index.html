@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image Upload Form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body >
+    <h1 class="h1">Store your important files & texts</h1>
+    <form action="/upload" class="form" method="POST" enctype="multipart/form-data">
+    <label class="label">Texts:</label>
+    <input type="text" id="texts" name="title">
+
+    <label class="label">Image:</label>
+    <input type="file" id="image" name="image">
+    <input type="submit" value="Upload">
+  </form>
+</body>
+</html>
